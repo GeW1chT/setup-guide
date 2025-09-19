@@ -1,0 +1,54 @@
+/* styles/globals.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f6fa;
+  color: #2f3640;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #192a56;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.8rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: #40739e;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #e84118;
+  transform: scale(1.05);
+}
+
+article {
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+article h2, article h3 {
+  color: #192a56;
+}
